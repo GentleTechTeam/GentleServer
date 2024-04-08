@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="gentle_server library API docs, for the Dart programming language.">
+  <title>gentle_server library - Dart API</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../static-assets/github.css?v1">
+  <link rel="stylesheet" href="../static-assets/styles.css?v1">
+  <link rel="icon" href="../static-assets/favicon.png?v1">
+
+  
+</head>
+
+
+<body data-base-href="../" data-using-base-href="false">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../index.html">gentle_server</a></li>
+    <li class="self-crumb">gentle_server library</li>
+  </ol>
+  <div class="self-name">gentle_server</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+
+  <div id="dartdoc-main-content" class="main-content">
+      <div>
+<h1><span class="kind-library">gentle_server</span> library 
+    <a href="https://dart.dev/null-safety" class="feature feature-null-safety" title="Supports the null safety language feature.">Null safety</a>
+ 
+</h1></div>
+
+    
+<section class="desc markdown">
+  <p>The <code>gentle_server</code> library provides a set of utilities for building a gentle server.</p>
+<p>This library exports the <code>gentle_server.dart</code> file, which contains the main functionality
+for the gentle server.</p>
+</section>
+
+
+    <section class="summary offset-anchor" id="classes">
+      <h2>Classes</h2>
+
+      <dl>
+        <dt id="BaseConfigurationService">
+  <span class="name "><a href="../gentle_server/BaseConfigurationService-class.html">BaseConfigurationService</a></span> 
+
+</dt>
+<dd>
+  
+</dd>
+
+        <dt id="GentleServer">
+  <span class="name "><a href="../gentle_server/GentleServer-class.html">GentleServer</a></span> 
+
+</dt>
+<dd>
+  
+</dd>
+
+        <dt id="ServerEmptyOkResponse">
+  <span class="name "><a href="../gentle_server/ServerEmptyOkResponse-class.html">ServerEmptyOkResponse</a></span> 
+
+</dt>
+<dd>
+  
+</dd>
+
+        <dt id="ServerEmptyRequest">
+  <span class="name "><a href="../gentle_server/ServerEmptyRequest-class.html">ServerEmptyRequest</a></span> 
+
+</dt>
+<dd>
+  
+</dd>
+
+        <dt id="ServerEmptyRouteParams">
+  <span class="name "><a href="../gentle_server/ServerEmptyRouteParams-class.html">ServerEmptyRouteParams</a></span> 
+
+</dt>
+<dd>
+  
+</dd>
+
+        <dt id="ServerInternalErrorResponse">
+  <span class="name "><a href="../gentle_server/ServerInternalErrorResponse-class.html">ServerInternalErrorResponse</a></span> 
+
+</dt>
+<dd>
+  
+</dd>
+
+        <dt id="ServerJsonOkResponse">
+  <span class="name "><a href="../gentle_server/ServerJsonOkResponse-class.html">ServerJsonOkResponse</a></span> 
+
+</dt>
+<dd>
+  
+</dd>
+
+        <dt id="ServerNotFoundResponse">
+  <span class="name "><a href="../gentle_server/ServerNotFoundResponse-class.html">ServerNotFoundResponse</a></span> 
+
+</dt>
+<dd>
+  
+</dd>
+
+        <dt id="ServerPlainOkResponse">
+  <span class="name "><a href="../gentle_server/ServerPlainOkResponse-class.html">ServerPlainOkResponse</a></span> 
+
+</dt>
+<dd>
+  
+</dd>
+
+        <dt id="ServerRedirectResponse">
+  <span class="name "><a href="../gentle_server/ServerRedirectResponse-class.html">ServerRedirectResponse</a></span> 
+
+</dt>
+<dd>
+  
+</dd>
+
+        <dt id="ServerRequest">
+  <span class="name "><a href="../gentle_server/ServerRequest-class.html">ServerRequest</a></span> 
+
+</dt>
+<dd>
+  
+</dd>
+
+        <dt id="ServerRequestWithJsonMapBody">
+  <span class="name "><a href="../gentle_server/ServerRequestWithJsonMapBody-class.html">ServerRequestWithJsonMapBody</a></span> 
+
+</dt>
+<dd>
+  
+</dd>
+
+        <dt id="ServerRequestWithQueryParams">
+  <span class="name "><a href="../gentle_server/ServerRequestWithQueryParams-class.html">ServerRequestWithQueryParams</a></span> 
+
+</dt>
+<dd>
+  
+</dd>
+
+        <dt id="ServerResponse">
+  <span class="name "><a href="../gentle_server/ServerResponse-class.html">ServerResponse</a></span> 
+
+</dt>
+<dd>
+  
+</dd>
+
+        <dt id="ServerRoute">
+  <span class="name "><a href="../gentle_server/ServerRoute-class.html">ServerRoute</a><span class="signature">&lt;<wbr><span class="type-parameter">T extends <a href="../gentle_server/ServerRouteParams-class.html">ServerRouteParams</a></span>, <span class="type-parameter">R extends <a href="../gentle_server/ServerRequest-class.html">ServerRequest</a></span>&gt;</span></span> 
+
+</dt>
+<dd>
+  TODO: Add params to path validation method. (could be outside <a href="../gentle_server/ServerRoute-class.html">ServerRoute</a>)
+Params(<code>T</code>) should match <a href="../gentle_server/ServerRoute/path.html">path</a> arguments.
+</dd>
+
+        <dt id="ServerRouteAuthContext">
+  <span class="name "><a href="../gentle_server/ServerRouteAuthContext-class.html">ServerRouteAuthContext</a></span> 
+
+</dt>
+<dd>
+  
+</dd>
+
+        <dt id="ServerRouteHandlerParams">
+  <span class="name "><a href="../gentle_server/ServerRouteHandlerParams-class.html">ServerRouteHandlerParams</a><span class="signature">&lt;<wbr><span class="type-parameter">T extends <a href="../gentle_server/ServerRouteParams-class.html">ServerRouteParams</a></span>, <span class="type-parameter">R extends <a href="../gentle_server/ServerRequest-class.html">ServerRequest</a></span>&gt;</span></span> 
+
+</dt>
+<dd>
+  
+</dd>
+
+        <dt id="ServerRouteHeaders">
+  <span class="name "><a href="../gentle_server/ServerRouteHeaders-class.html">ServerRouteHeaders</a></span> 
+
+</dt>
+<dd>
+  
+</dd>
+
+        <dt id="ServerRouteParams">
+  <span class="name "><a href="../gentle_server/ServerRouteParams-class.html">ServerRouteParams</a></span> 
+
+</dt>
+<dd>
+  
+</dd>
+
+        <dt id="ServerRouteParams1">
+  <span class="name "><a href="../gentle_server/ServerRouteParams1-class.html">ServerRouteParams1</a></span> 
+
+</dt>
+<dd>
+  
+</dd>
+
+        <dt id="ServerRouteParams2">
+  <span class="name "><a href="../gentle_server/ServerRouteParams2-class.html">ServerRouteParams2</a></span> 
+
+</dt>
+<dd>
+  
+</dd>
+
+        <dt id="ServerRouteParams3">
+  <span class="name "><a href="../gentle_server/ServerRouteParams3-class.html">ServerRouteParams3</a></span> 
+
+</dt>
+<dd>
+  
+</dd>
+
+        <dt id="ServerRouteParams4">
+  <span class="name "><a href="../gentle_server/ServerRouteParams4-class.html">ServerRouteParams4</a></span> 
+
+</dt>
+<dd>
+  
+</dd>
+
+        <dt id="ServerRouteParams5">
+  <span class="name "><a href="../gentle_server/ServerRouteParams5-class.html">ServerRouteParams5</a></span> 
+
+</dt>
+<dd>
+  
+</dd>
+
+      </dl>
+    </section>
+
+
+
+
+
+
+    <section class="summary offset-anchor" id="enums">
+      <h2>Enums</h2>
+
+      <dl>
+        <dt id="RequestMethod">
+  <span class="name "><a href="../gentle_server/RequestMethod.html">RequestMethod</a></span> 
+
+</dt>
+<dd>
+  TODO: Add other methods when needed
+</dd>
+
+      </dl>
+    </section>
+
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+  <li><a href="../index.html">gentle_server</a></li>
+  <li class="self-crumb">gentle_server library</li>
+</ol>
+
+
+    <h5><span class="package-name">gentle_server</span> <span class="package-kind">package</span></h5>
+    <ol>
+      <li class="section-title">Libraries</li>
+      <li><a href="../gentle_server/gentle_server-library.html">gentle_server</a></li>
+</ol>
+
+  </div>
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+    <h5>gentle_server library</h5>
+    <ol>
+  <li class="section-title"><a href="../gentle_server/gentle_server-library.html#classes">Classes</a></li>
+  <li><a href="../gentle_server/BaseConfigurationService-class.html">BaseConfigurationService</a></li>
+  <li><a href="../gentle_server/GentleServer-class.html">GentleServer</a></li>
+  <li><a href="../gentle_server/ServerEmptyOkResponse-class.html">ServerEmptyOkResponse</a></li>
+  <li><a href="../gentle_server/ServerEmptyRequest-class.html">ServerEmptyRequest</a></li>
+  <li><a href="../gentle_server/ServerEmptyRouteParams-class.html">ServerEmptyRouteParams</a></li>
+  <li><a href="../gentle_server/ServerInternalErrorResponse-class.html">ServerInternalErrorResponse</a></li>
+  <li><a href="../gentle_server/ServerJsonOkResponse-class.html">ServerJsonOkResponse</a></li>
+  <li><a href="../gentle_server/ServerNotFoundResponse-class.html">ServerNotFoundResponse</a></li>
+  <li><a href="../gentle_server/ServerPlainOkResponse-class.html">ServerPlainOkResponse</a></li>
+  <li><a href="../gentle_server/ServerRedirectResponse-class.html">ServerRedirectResponse</a></li>
+  <li><a href="../gentle_server/ServerRequest-class.html">ServerRequest</a></li>
+  <li><a href="../gentle_server/ServerRequestWithJsonMapBody-class.html">ServerRequestWithJsonMapBody</a></li>
+  <li><a href="../gentle_server/ServerRequestWithQueryParams-class.html">ServerRequestWithQueryParams</a></li>
+  <li><a href="../gentle_server/ServerResponse-class.html">ServerResponse</a></li>
+  <li><a href="../gentle_server/ServerRoute-class.html">ServerRoute</a></li>
+  <li><a href="../gentle_server/ServerRouteAuthContext-class.html">ServerRouteAuthContext</a></li>
+  <li><a href="../gentle_server/ServerRouteHandlerParams-class.html">ServerRouteHandlerParams</a></li>
+  <li><a href="../gentle_server/ServerRouteHeaders-class.html">ServerRouteHeaders</a></li>
+  <li><a href="../gentle_server/ServerRouteParams-class.html">ServerRouteParams</a></li>
+  <li><a href="../gentle_server/ServerRouteParams1-class.html">ServerRouteParams1</a></li>
+  <li><a href="../gentle_server/ServerRouteParams2-class.html">ServerRouteParams2</a></li>
+  <li><a href="../gentle_server/ServerRouteParams3-class.html">ServerRouteParams3</a></li>
+  <li><a href="../gentle_server/ServerRouteParams4-class.html">ServerRouteParams4</a></li>
+  <li><a href="../gentle_server/ServerRouteParams5-class.html">ServerRouteParams5</a></li>
+
+
+
+
+
+
+  <li class="section-title"><a href="../gentle_server/gentle_server-library.html#enums">Enums</a></li>
+  <li><a href="../gentle_server/RequestMethod.html">RequestMethod</a></li>
+
+
+</ol>
+
+  </div><!--/sidebar-offcanvas-right-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    gentle_server
+      1.0.0
+  </span>
+
+  
+</footer>
+
+
+
+<script src="../static-assets/highlight.pack.js?v1"></script>
+<script src="../static-assets/docs.dart.js"></script>
+
+
+
+</body>
+
+</html>
+

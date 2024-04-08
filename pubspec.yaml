@@ -1,0 +1,17 @@
+name: gentle_server
+description: Lightweight and convenient server infrastructure written in Dart.
+version: 1.0.0
+
+environment:
+  sdk: ">=2.18.6 <3.0.0"
+
+dependencies:
+  shelf: ^1.1.0
+  shelf_router: ^1.0.0
+  meta: ^1.8.0
+  json_annotation: ^4.6.0
+
+dev_dependencies:
+  lints: ^2.0.0
+  json_serializable: ^6.1.6
+  build_runner: ^2.1.10
