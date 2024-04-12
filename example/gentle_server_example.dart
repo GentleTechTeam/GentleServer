@@ -2,6 +2,7 @@ import 'package:gentle_server/gentle_server.dart';
 
 import 'hello_world_route_example.dart';
 
+//ignore: prefer-match-file-name
 class GentleConfigurationService implements BaseConfigurationService {
   @override
   bool get corsEnabled => true;
@@ -23,7 +24,7 @@ class DefaultGentleServer extends GentleServer {
   List<ServerRoute> get routes;
 }
 
-void main() {
+void main() async {
   final helloWorldRoute = HelloWorldRoute(
     depsFactory: ({
       required authContext,
@@ -44,7 +45,7 @@ void main() {
     ],
   );
 
-  server.init().then((port) {
-    print('Server listening on port $port');
-  });
+  final port = await server.init();
+
+  print('Server listening on port $port');
 }

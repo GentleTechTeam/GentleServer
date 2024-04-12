@@ -10,6 +10,7 @@ typedef HelloWorldRouteDepsFactory = Future<HelloWorldRouteDeps> Function({
   required ServerRouteAuthContext authContext,
 });
 
+//ignore: prefer-match-file-name
 class HelloWorldRoute
     extends ServerRoute<ServerEmptyRouteParams, ServerEmptyRequest> {
   final HelloWorldRouteDepsFactory _depsFactory;
