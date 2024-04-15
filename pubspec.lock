@@ -189,7 +189,7 @@ packages:
       path: "."
       ref: HEAD
       resolved-ref: b4d269254d2f3bd3d8a3998b9432dc778c7786cc
-      url: "git@github.com:GentleTechTeam/GentleLints.git"
+      url: "https://github.com/GentleTechTeam/GentleLints.git"
     source: git
     version: "1.0.0"
   glob:
